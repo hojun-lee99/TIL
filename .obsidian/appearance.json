@@ -1,0 +1,15 @@
+{
+  "accentColor": "#2e6f40",
+  "cssTheme": "Blue Topaz",
+  "interfaceFontFamily": "Iosevka Nerd Font,Pretendard",
+  "textFontFamily": "Iosevka Nerd Font,Pretendard",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "extended-colorschemes",
+    "minimal-cards",
+    "custom-rainbow-colors",
+    "custom"
+  ],
+  "monospaceFontFamily": "Iosevka Nerd Font,Pretendard",
+  "translucency": false
+}

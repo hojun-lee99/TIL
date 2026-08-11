@@ -1,0 +1,161 @@
+/*  
+        * ─────────────────────────────────────────────────────────────  
+        * 사용자 정의 코드 설정  
+        * ─────────────────────────────────────────────────────────────  
+        *  
+        * 아래는 코드 변수에 대한 스타일 설정입니다.  
+        *  
+        * 팁:  
+        * 선호하는 색상을 선택하여 스타일 설정 "default" 값에 삽입할 수 있습니다. 그러면 색상을 변경할 때 재설정하고 (앱 내에서) 저장하기만 하면 선호하는 색상으로 돌아갈 수 있습니다.  
+        * ─────────────────────────────────────────────────────────────  
+        */
+
+/* @settings  
+          
+        name: 코드 블록 설정  
+        id: 코드 블록 설정  
+        settings:  
+          
+        -  
+        id: 코드 블록 스타일 설정  
+        title: 코드 블록 스타일 설정  
+        description: 여기에서 코드 변수에 대한 색상을 선택할 수 있습니다.  
+        type: heading  
+        level: 1  
+        collapsed: true  
+        -  
+        id: code-background  
+        title: 코드 배경색  
+        description: 코드 블록 배경  
+        type: variable-themed-color  
+        format: hex  
+        default-light: '#'  
+        default-dark: '#'  
+        -  
+        id: code-normal  
+        title: 코드 텍스트 색상  
+        description: 구문 강조 표시가 없을 때 코드 색상  
+        type: variable-themed-color  
+        format: hex  
+        default-light: '#'  
+        default-dark: '#'  
+        -  
+        id: syntax-highlighting  
+        title: 구문 강조 표시  
+        type: heading  
+        level: 3  
+        collapsed: false  
+        -  
+        id: code-comment  
+        title: "구문: 주석"  
+        description: 주석에 대한 구문 강조 표시  
+        type: variable-themed-color  
+        format: hex  
+        default-light: '#'  
+        default-dark: '#'  
+        -  
+        id: code-function  
+        title: "구문: 함수"  
+        description: 함수에 대한 구문 강조 표시  
+        type: variable-themed-color  
+        format: hex  
+        default-light: '#'  
+        default-dark: '#'  
+        -  
+        id: code-keyword  
+        title: "구문: 키워드"  
+        description: 키워드에 대한 구문 강조 표시  
+        type: variable-themed-color  
+        format: hex  
+        default-light: '#'  
+        default-dark: '#'  
+        -  
+        id: code-important  
+        title: "구문: 중요"  
+        description: 중요한 텍스트에 대한 구문 강조 표시  
+        type: variable-themed-color  
+        format: hex  
+        default-light: '#'  
+        default-dark: '#'  
+        -  
+        id: code-operator  
+        title: "구문: 연산자"  
+        description: 연산자에 대한 구문 강조 표시  
+        type: variable-themed-color  
+        format: hex  
+        default-light: '#'  
+        default-dark: '#'  
+        -  
+        id: code-property  
+        title: "구문: 속성"  
+        description: 속성에 대한 구문 강조 표시  
+        type: variable-themed-color  
+        format: hex  
+        default-light: '#'  
+        default-dark: '#'  
+        -  
+        id: code-punctuation  
+        title: "구문: 문장 부호"  
+        description: 문장 부호에 대한 구문 강조 표시  
+        type: variable-themed-color  
+        format: hex  
+        default-light: '#'  
+        default-dark: '#'  
+        -  
+        id: code-string  
+        title: "구문: 문자열"  
+        description: 문자열에 대한 구문 강조 표시  
+        type: variable-themed-color  
+        format: hex  
+        default-light: '#'  
+        default-dark: '#'  
+        -  
+        id: code-tag  
+        title: "구문: 태그"  
+        description: 태그에 대한 구문 강조 표시  
+        type: variable-themed-color  
+        format: hex  
+        default-light: '#'  
+        default-dark: '#'  
+        -  
+        id: code-value  
+        title: "구문: 값"  
+        description: 값에 대한 구문 강조 표시  
+        type: variable-themed-color  
+        format: hex  
+        default-light: '#'  
+        default-dark: '#'  
+          
+        */
+
+/**  
+        * 아래는 밝은 테마와 어두운 테마 모두에 대한 변수입니다.  
+        * 사용자 정의하려면 `style settings` 플러그인을 다운로드하기만 하면 됩니다.  
+        * 그리고 Obsidian에서 이 스니펫을 활성화하세요!  
+        * */
+
+.theme-light {
+  --code-normal: #4d4d4c;
+  --code-comment: #b4b4b4;
+  --code-punctuation: #4d4d4c;
+  --code-tag: #ff79c6;
+  --code-value: #0a5bc0;
+  --code-string: #327845;
+  --code-property: #4d4d4c;
+  --code-function: #6e43bb;
+  --code-keyword: #d43f4b;
+  --code-important: #4d4d4c;
+}
+
+.theme-dark {
+  --code-normal: #f8f8f2;
+  --code-comment: #6272a4;
+  --code-punctuation: #008000;
+  --code-tag: #ff79c6;
+  --code-value: #8be9fd;
+  --code-string: #50fa7b;
+  --code-property: #008000;
+  --code-function: #ff79c6;
+  --code-keyword: #bd93f9;
+  --code-important: #008000;
+}

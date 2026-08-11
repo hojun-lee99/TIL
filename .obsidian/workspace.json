@@ -1,0 +1,280 @@
+{
+  "main": {
+    "id": "b3d8f14775a2381a",
+    "type": "split",
+    "children": [
+      {
+        "id": "5187940287fa23cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e13eb5cd533a61ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ],
+        "stacked": true
+      },
+      {
+        "id": "0e46624d5b4e6017",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfe24e82f80782de",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b2036e0fdc16a87",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ecaedccb65e2fd2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bf0c737d6324325",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a20e1c44ce0ac076",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "drawing",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byCreatedTime"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2ac5bb3c0dc83219",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 259.5
+  },
+  "right": {
+    "id": "49d6191fcff83be3",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb32d64dcd436cf3",
+        "type": "tabs",
+        "dimension": 33.411764705882355,
+        "children": [
+          {
+            "id": "fdd788c16112390d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9f94eb0cf7d275e7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "9da29a8795c4c377",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "09db3510beb2b8cc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "b5457e50d57a6d33",
+        "type": "tabs",
+        "dimension": 43.05882352941177,
+        "children": [
+          {
+            "id": "520bda173e3cdce6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      },
+      {
+        "id": "be512c39d55b73ea",
+        "type": "tabs",
+        "dimension": 23.529411764705877,
+        "children": [
+          {
+            "id": "57ed970be5134ffe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 384.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "e13eb5cd533a61ff",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "크래프톤 백앤드 과제 학습 정리.md",
+    "Krafton backend 과제 README.md.md",
+    "크래프톤 인턴.md.tmp",
+    "05 Programs Career/Krafton Jungle/Applications/크래프톤 정글 지원서.md",
+    "05 Programs Career/Krafton Jungle/Applications/크래프톤 정글 에세이.md",
+    "임시/Transactional Outbox 방식을 사용한 신뢰성 보장.md",
+    "자소서.md",
+    "크래프톤 채용 설명회.md",
+    "05 Programs Career/Krafton Jungle/크래프톤 정글 이력서 정리.md",
+    "이력서 전략.md",
+    "0728 동석 코치님 커리어 세션.md",
+    "심화과정 계획서 - 이호준(12기, 61).md",
+    "클로드 코드 마스터 정리.md",
+    "원티드 이력서 특강.md",
+    "취준 발제.md",
+    "임시/layer b audit table.md",
+    "임시/audit_log 구현시 고민한점.md",
+    "나만무 기획 발표 피드백.md",
+    "기술적 챌린지 대본 정리.md",
+    "관리자 페이지에서 보여야 할 것.md",
+    "python 패키지 관리자 uv.md",
+    "Redis-Logo.png",
+    "임시/기술적 챌린지.md",
+    "임시/기술적 챌린지 정리.md",
+    "Excalidraw/Drawing 2026-07-18 11.36.29.excalidraw.md",
+    "postgresql_plain_wordmark_logo_icon_146390.webp",
+    "나만무 자체 평가.md",
+    "98 Excalidraw/Drawing 2026-05-18 15.21.15.excalidraw.md",
+    "임시",
+    "대화",
+    "코텍스",
+    "Week 17-21 나만무",
+    "Week 15-16 실력다지기",
+    "Excalidraw",
+    "04 Software Engineering/Books/읽기 좋은 코드가 좋은 코드다/4. 선택된 주제들",
+    "04 Software Engineering/Books/읽기 좋은 코드가 좋은 코드다/3. 코드 재작성하기",
+    "04 Software Engineering/Books/읽기 좋은 코드가 좋은 코드다",
+    "00 CS/General/attachments/uuid-img1.png",
+    "02 Backend DB/Nest.js/attachments/1_RRXus7KEmYDxxZUJYnvG3A@2x.webp",
+    "00 CS/운영체제/Pintos/Virtual Memory/attachments/Pasted image 20260413135609.png",
+    "00 CS/운영체제/Pintos/Virtual Memory/attachments/Pasted image 20260413134339.png",
+    "05 Programs Career/Boostcamp/day6/attachments/1747710683169SCREEN.ACTION.png",
+    "03 AI ML/Books/밑바닥부터 만드는 LLM/attachments/Screenshot 2026-05-27 at 4.16.53 PM.png",
+    "Screenshot 2026-05-27 at 4.16.53 PM.png",
+    "Pasted image 20260413134339.png",
+    "Weekly I Learned/무제 파일 1.canvas",
+    "Weekly I Learned/무제 파일.canvas"
+  ]
+}
