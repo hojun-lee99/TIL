@@ -40,7 +40,7 @@
   "Blue-Topaz-Codebox-Highlight@@code-box-style-option": "codebox-default-style",
   "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-sublime",
   "blue-topaz-theme@@scrollbar-style-option": "default-scrollbar",
-  "Blue-Topaz-Codebox-Highlight@@code-line-number": true,
+  "Blue-Topaz-Codebox-Highlight@@code-line-number": false,
   "Blue-Topaz-Codebox-Highlight@@mute-code-indent-line": false,
   "Blue-Topaz-Codebox-Highlight@@remove-language-type": false,
   "red-graphite@@red-graphite-accent-color@@light": "#327845"
