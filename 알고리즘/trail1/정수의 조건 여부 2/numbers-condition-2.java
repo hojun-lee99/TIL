@@ -10,7 +10,7 @@ public class Main {
         if (a == 5) {
             System.out.println('A');
         }
-        else if (a % 2 == 0) {
+        if (a % 2 == 0) {
             System.out.println('B');
         }
     }
